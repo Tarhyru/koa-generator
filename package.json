@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "test": "jest"
   },
   "author": "zephyru",
   "license": "ISC",
@@ -19,6 +20,7 @@
     "koa-static-server": "^1.3.4"
   },
   "devDependencies": {
+    "jest": "^23.6.0",
     "nodemon": "^1.18.7"
   }
 }
