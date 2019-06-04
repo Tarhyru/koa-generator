@@ -1,5 +1,5 @@
 
-var app = require('./koa-server.js');
+var app = require('../lib/koa-server.js');
 var debug = require('debug')('demo:server');
 var http = require('http');
 

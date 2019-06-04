@@ -2,10 +2,10 @@
   "name": "koa-generator",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "bin/main.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js",
+    "start": "node bin/main.js",
+    "dev": "nodemon bin/main.js",
     "test": "jest"
   },
   "author": "zephyru",
